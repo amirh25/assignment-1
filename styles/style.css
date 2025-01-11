@@ -1,0 +1,26 @@
+*{
+    margin: 0; padding: 0; 
+}
+/*header style*/
+.header{
+    background: rgb(198, 228, 214); margin-top: 144px;margin-left: 192px; margin-right: 192px;
+    display: flex;gap: 77px;border: none; border-radius: 29px;
+}
+
+
+.header .div1{
+    padding-left: 120px; padding-bottom: 140px;padding-top: 140px; line-height: 80px;
+}
+.header p{
+    font-size: 29px;font-weight: 600px;color: rgba(14, 14, 14, 0.5);
+}
+.header h1{
+    font-size: 67px;font-weight: 840px;
+}
+.header .div2{
+    padding-right: 120px; padding-bottom: 96px;padding-top: 96px;
+}
+.btn{
+    font-size: 22px;font-weight: 720px;border-radius: 10px;
+    background: rgb(0, 106, 80);color: rgb(255, 255, 255);border: none;height:67px;width: 324px;
+}
