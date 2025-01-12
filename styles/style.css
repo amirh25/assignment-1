@@ -389,3 +389,9 @@ footer{
   .social-icons img:hover {
     transform: scale(1.1);
   }
+  table:hover td{
+    background-color: blue;
+  }
+  p:hover{
+    background-color: coral;
+  }
