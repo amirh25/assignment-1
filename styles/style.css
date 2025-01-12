@@ -23,4 +23,102 @@
 .btn{
     font-size: 22px;font-weight: 720px;border-radius: 10px;
     background: rgb(0, 106, 80);color: rgb(255, 255, 255);border: none;height:67px;width: 324px;
+    margin-top: 50px;
+    
+}
+
+/*header ends*/
+
+
+/*main style starts*/
+/*pillar styling*/
+.pillar-card{
+    display: flex;padding-top: 38px; justify-content: flex-start;
+    align-items: flex-start;gap: 28px;border: none;
+}
+section{
+    margin-left: 192px; margin-right: 192px; margin-top: 96px;
+}
+section p{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.pillar-card div{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 19px;
+    background: rgb(255, 255, 255); 
+    width: 362px; height: 260px; 
+    padding:30px; 
+    line-height: 29px; 
+}
+section h2{
+   
+    font-size: 48px;
+}
+section h5{
+    font-size: 24px; font-weight: 840px;
+}
+section p{
+    font-size: 19px;font-weight: 480px;
+}
+
+/*vision styling*/
+.vision{
+    display: flex; flex-direction: column; gap: 38px; 
+}
+
+.vision-head{
+    display: flex; flex-direction: column; gap:28px;
+}
+.future-img{
+    display: flex;margin-left: 0px; margin-right: 0px; gap: 29px;
+}
+.future-img div{
+    border:none; box-sizing: border-box;
+    border-radius: 20px; padding: 39px; display: flex;flex-direction: column;gap: 14px;
+   
+}
+#card-one{
+    background: rgba(84, 144, 245, 0.2);
+}
+#card-two{
+    background: rgb(198, 228, 214);
+}
+#card-three{
+    background: rgb(247, 235, 207);
+}
+
+.future-img div img{
+    height: 64px; width: 60px;
+}
+section h5{
+    font-size: 24px;
+    font-weight: 840;
+    line-height: 28px;
+}
+.quote-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display:flex; flex-direction: column; 
+}
+.quote-card .quote-section .quote-text{
+    margin-top: -40px;
+}
+.quote-card div{
+    margin-top: 55px; margin-left: 38px; 
+}
+
+.quote-card .quote-section{
+    padding-right: 14px;
+}
+.quote-card .yunus{
+    margin-top: 14px; padding-bottom:57px;
+}
+.quote-section .author{
+    font-size: 24px;
+    font-weight: 720;
+    line-height: 29px;
+    letter-spacing: 0%;
 }
