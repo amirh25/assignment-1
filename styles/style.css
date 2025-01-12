@@ -166,3 +166,44 @@ select {
     width: 100%;
     background: rgb(198, 228, 214);
 }
+
+
+
+/*news styling*/
+.news{
+    display: flex; flex-direction: column;
+}
+.news-header{
+    display: flex; flex-direction: column;
+}
+.news .satelite-one{
+    margin-top: 38px; display: flex; flex-direction: row;
+}
+.news .satelite-two{
+    margin-top: 38px; display: flex; flex-direction: row-reverse;
+}
+.sat{
+    height: 367px; width: 490px;border-radius: 29px;
+    background: rgb(255, 255, 255);
+}
+
+.satelite-one div{
+    height: 348px; width: 893px;
+}
+.satelite-two div{
+    height: 348px; width: 893px;
+}
+    
+.news img .al-jazeera{
+    height: 48px; width: 161px;
+}
+.date{
+    margin-top:30px;
+}
+.news .satelite-one,.satelite-two{
+    border-radius: 29px;
+background: rgb(255, 255, 255);
+}
+.sat-text{
+    margin-top: 20px;
+}
