@@ -122,3 +122,45 @@ section h5{
     line-height: 29px;
     letter-spacing: 0%;
 }
+
+
+/*opinion style*/
+
+.opinion-matters {
+    
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 19px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+tbody td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 5px;
+    width: 100%;
+}
