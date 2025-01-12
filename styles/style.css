@@ -283,3 +283,71 @@ p {
 .donate-now-btn:hover {
     background-color: #005f46;
 }
+
+/* news letter styling */
+/* styles.css */
+
+  .newsletter-section {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 30px 20px;
+    
+    
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-section h2 {
+    font-size: 29px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-section .description {
+    font-size: 16px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .email-input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 400px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .email-input:focus {
+    border-color: #56a67a;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #056d46;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #044d34;
+  }
+  
+  .newsletter-section .promise {
+    font-size: 14px;
+    color: #6a6a6a;
+    margin-top: 10px;
+  }
+  
